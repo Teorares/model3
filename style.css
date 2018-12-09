@@ -1,0 +1,143 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+	display:flex;
+}
+a {
+	text-decoration: none;
+}
+header {
+	background: #44376b;
+}
+.header-container {
+	width:90%;
+	margin: 0 auto;
+	display:flex;
+}
+.header-container h2{
+	text-transform: uppercase;
+	font-size: 24px;
+	color:#ffffff;
+	font-weight: 400;
+}
+.header-container span {
+	color:#da2346;
+}
+.header-container a{
+	color:white;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	padding-top: 22px;
+	padding-bottom:20px;
+	margin-right: 59px;
+}
+.header-container a:hover{
+	color:#0d7a87;
+}
+header ul {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	padding-top: 22px;
+	padding-bottom:21px;
+	padding-right:93px;
+	font-size: 24px;
+}
+.social {
+	width:110px;
+	margin-left: 90px;
+}
+.social img {
+	display:inline;
+	padding-top: 30px;
+}
+.social div { 
+	border:1px solid #605682;
+	width: 25px;
+	height: 30px;
+	text-align: center;
+	display: inline;
+	border-radius: 25px;
+	padding: 5px;
+}
+.social a {
+	padding: 5px;
+	margin-right: 0;
+}
+main section {
+	background:url(https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.brand-slider {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 126px;
+}
+.brand-slider h1 {
+	width: 389px;
+	height: 35px;
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 38.96px;
+	text-transform: uppercase;
+	padding-top: 48px;
+	display: inline;
+	padding-left: 70px;
+	padding-right: 79px;
+	margin: 0 auto;
+	border-top: 1px white solid;
+	border-opacity:0.2;
+	border-left:1px white solid;
+	border-right:1px white solid;
+}
+.brand-slider div {
+	padding-top: 24px;
+}
+
+.owl-carousel h5 {
+	padding-top: 28px;
+	width: 332px;
+	height: 29px;
+	opacity: 0.7;
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 18.18px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 38px;
+	padding-right: 150px;
+	padding-left:100px;
+	border-bottom:1px white solid;
+	border-left:1px white solid;
+	border-right:1px white solid;
+}
+.brand-slider button {
+	background: none;
+	width: 112px;
+	height: 37px;
+	border: 2px solid #ffffff;
+	cursor: pointer;
+}
+.brand-slider p {
+	width: 46px;
+	height: 11px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18.18px;
+	text-transform: uppercase;
+	display: inline;
+}
+.brand-slider {
+	padding-bottom: 149px;
+}
