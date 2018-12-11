@@ -336,3 +336,32 @@ main .brand-slider {
 	margin-top: 181px;
 	margin-left: 5px;
 }
+.Clients {
+	height: 139px;
+}
+.Clients-container {
+	margin: 0 auto;
+	background: #fefefe;
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	padding-top: 54px;
+	padding-bottom: 56px;
+}
+.Clients-container img{
+	background: #656464;
+}
+.Clients-container p {
+	margin: 0 auto;
+	
+	text-align: center;
+	width: 285px;
+	height: 29px;
+	color: #656464;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.Clients-img-left-padding {
+ 	padding-left: 70px;
+}
