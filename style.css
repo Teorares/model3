@@ -52,12 +52,12 @@ header ul {
 	font-size: 24px;
 }
 .social {
-	width:110px;
-	margin-left: 90px;
+	width:120px;
+	margin-left: 70px;
 }
 .social img {
 	display:inline;
-	padding-top: 30px;
+	margin-top: 30px;
 }
 .social div { 
 	border:1px solid #605682;
@@ -72,7 +72,7 @@ header ul {
 	padding: 5px;
 	margin-right: 0;
 }
-main section {
+main .brand-slider {
 	background:url(https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 .brand-slider {
@@ -140,4 +140,116 @@ main section {
 }
 .brand-slider {
 	padding-bottom: 149px;
+}
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 427px;
+}
+
+.container h2 {
+	width: 293px;
+	height: 17px;
+	color: #252525;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 20.11px;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+.about-us {
+	padding-left:44px;
+}
+.about-us p {
+	width: 72%;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+}
+.services {
+	height: 139px;
+}
+.services-container {
+	margin: 0 auto;
+	background: #373737;
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	padding-top: 54px;
+	padding-bottom: 56px;
+}
+.services-container p {
+	margin: 0 auto;
+	
+	text-align: center;
+	width: 285px;
+	height: 29px;
+	color: #f7f7f7;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.services-img-left-padding {
+ 	padding-left: 70px;
+}
+.card-container {
+	background: #3d3d3d;
+}
+.cadrs {
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	padding-bottom: 50px;
+}
+.cadrs div {
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+}
+.cadrs img {
+	padding-top: 144px;
+	padding-left: 150px;
+	padding-right: 100px;
+	padding-bottom: 56px;
+}
+.cadrs h2 {
+	width: 234px;
+	height: 17px;
+	color: #f7f7f7;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+}
+.cadrs p {
+	width: 299px;
+	height: 49px;
+	color: #f7f7f7;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+}
+.cadrs button {
+	margin-top: 29px;
+	background: #959595;
+	border: 0px;
+	color: #f7f7f7;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	width: 141px;
+	height: 29px;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-left: 150px;
+	margin-right: 100px;
+	margin-bottom: 137px;
+}
+.cadrs div:hover {
+	background: #097e89;
 }
