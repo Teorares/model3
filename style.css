@@ -198,9 +198,9 @@ main .brand-slider {
 .cadrs {
 	display: grid;
 	grid-template-columns: 33.3% 33.3% 33.3%;
-	padding-bottom: 50px;
+	height: 554px;
 }
-.cadrs div {
+.border {
 	border-right: 2px solid white;
 	border-left: 2px solid white;
 }
@@ -248,8 +248,91 @@ main .brand-slider {
 	cursor: pointer;
 	margin-left: 150px;
 	margin-right: 100px;
-	margin-bottom: 137px;
+
 }
 .cadrs div:hover {
 	background: #097e89;
+}
+.CEO-cards {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	background: #3d3d3d;
+	height: 282px;
+}
+.CEO-cards p{
+	width: 222px;
+	height: 69px;
+	color: #cdc8c8;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	padding-top: 68px;
+	padding-left: 62px;
+	text-align: center;
+}
+.Shape5 img{
+	padding-left: 139px;
+	padding-top: 18px;
+}
+.arrows {
+	padding-left: 66px;
+	justify-content: space-between;
+	padding-top: 42px;
+}
+.arrows img{
+	padding: 0;
+}
+.arrows span{
+	padding-left: 71px;
+	padding-right: 78px;
+	width: 25px;
+	height: 11px;
+	color: #cdc8c8;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.CEO-PICTURE1 {
+	background: url(img/Model-1.png) no-repeat;
+	width: 202px;
+	height: 223px;
+	display: flex;
+	margin: 27px;
+}
+.CEO-PICTURE2 {
+	background: url(img/Model-2.png) no-repeat;
+	width: 202px;
+	height: 223px;
+	display: flex;
+	margin: 27px;
+}
+.CEO-PICTURE3 {
+	background: url(img/Model-3.png) no-repeat;
+	width: 202px;
+	height: 223px;
+	display: flex;
+	margin: 27px;
+}
+.span1 {
+	text-align: center;
+	justify-content: center;
+	width: 43px;
+	height: 33px;
+	background-color: #ffffff;
+	color: #272727;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 181px;
+	margin-left: 9px;
+}
+.span2 {
+	color: #272727;
+	font-size: 12px;
+	font-weight: 400;
+	height: 33px;
+	background: #ffffff;
+	width: 136px;
+	margin-top: 181px;
+	margin-left: 5px;
 }
